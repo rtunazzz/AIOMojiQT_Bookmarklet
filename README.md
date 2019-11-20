@@ -25,7 +25,7 @@ javascript: (function ()
 **All set up!**
 Now, just navigate to a product page, press the Bookmark and it will automatically start a Quicktask.
 
-# Setup tutorial video:
+# Link for a setup video:
 https://i.imgur.com/yPlNyQv.mp4
 
 -------------------------------
