@@ -4,16 +4,18 @@ A Bookmarklet that creates a QT for Aiomoji.
 - Works for **Chrome**, not sure if it'd work for any other browsers but feel free to try.
 - Currently only supports Solebox QTs
 
-```javascript
-javascript: (function () 
-{ var url = window.location.href;
-    stringUrl = String(url);
-    if (stringUrl.includes("solebox"))
-    {
-        stringUrl = "https://www.aiomoji.io/quicktask/add?storetype=solebox&url=" + stringUrl;
-        document.location = stringUrl;
-    }
-})()
+```javascript: (function () { 
+    let stringUrl = String(window.location.href);
+
+    // add a try catch here, includes tends to crash sometimes
+    try {
+        if (String(stringUrl).toLowerCase().includes("solebox")) {
+            document.location = `https://www.aiomoji.io/quicktask/add?storetype=solebox&url=${stringUrl}`;
+        };
+    } catch (err) {
+        // do nothing - it might crash if it doesn't find solebox
+    };
+})();
 ```
 
 ## How to set it up:
@@ -32,4 +34,5 @@ https://i.imgur.com/yPlNyQv.mp4
 
 ![Salute](https://www.emojirequest.com/images/SalutingEmoji.jpg)
 
-btw this is the first thing I ever wrote in JS with no prior JS experience so no hate pls
+
+**Special thanks to Vlad for assistance and codereview <3**
