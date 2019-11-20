@@ -25,7 +25,9 @@ javascript: (function ()
 **All set up!**
 Now, just navigate to a product page, press the Bookmark and it will automatically start a Quicktask.
 
-## Setup tutorial video:
+# Setup tutorial video:
 https://i.imgur.com/yPlNyQv.mp4
+
+-------------------------------
 
 ![Salute](https://www.emojirequest.com/images/SalutingEmoji.jpg)
