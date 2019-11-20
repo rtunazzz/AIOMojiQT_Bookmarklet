@@ -4,7 +4,7 @@ A Bookmarklet that creates a QT for Aiomoji.
 - Works for **Chrome**, not sure if it'd work for any other browsers but feel free to try.
 - Currently only supports Solebox QTs
 
-```
+```javascript
 javascript: (function () { 
     let stringUrl = String(window.location.href);
 
