@@ -1,6 +1,8 @@
 # AIOMoji Quicktask Bookmarklet
 A Bookmarklet that creates a QT for Aiomoji.
 
+**Currently only supports Solebox QTs**
+
 ```javascript
 javascript: (function () 
 { var url = window.location.href;
