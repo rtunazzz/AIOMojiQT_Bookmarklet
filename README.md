@@ -31,3 +31,5 @@ https://i.imgur.com/yPlNyQv.mp4
 -------------------------------
 
 ![Salute](https://www.emojirequest.com/images/SalutingEmoji.jpg)
+
+btw this is the first thing I ever wrote in JS with no prior JS experience so no hate pls
