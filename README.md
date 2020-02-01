@@ -5,7 +5,7 @@ A Bookmarklet that creates a QT for Aiomoji.
 
 
 - Works for **Chrome**, not sure if it'd work for any other browsers but feel free to try.
-- Currently only supports Solebox QTs
+- Currently only supports Solebox & Shopify QTs
 
 ```javascript
 javascript: (function () { 
@@ -13,7 +13,10 @@ javascript: (function () {
 
     try {
         if (String(stringUrl).toLowerCase().includes("solebox")) {
-            document.location = `https://www.aiomoji.io/quicktask/add?storetype=solebox&url=${stringUrl}`;
+            document.location = `https://www.aiomoji.io/quicktask/add?quicktask=solebox:${stringUrl}`;
+        }
+        else{
+            document.location = `https://www.aiomoji.io/quicktask/add?quicktask=${stringUrl}`;
         };
     } catch (err) {
     };
