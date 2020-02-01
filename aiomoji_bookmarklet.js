@@ -1,14 +1,13 @@
-javascript: (function () 
-{ var url = window.location.href;
-    stringUrl = String(url);
-    if (stringUrl.includes("solebox"))
-    {
-        stringUrl = "https://www.aiomoji.io/quicktask/add?quicktask=solebox:" + stringUrl;
-        document.location = stringUrl;
-    }
-    else
-    {
-        stringUrl = "https://www.aiomoji.io/quicktask/add?quicktask=" + stringUrl;
-        document.location = stringUrl;
-    }
-})()
+javascript: (function () { 
+    let stringUrl = String(window.location.href);
+
+    try {
+        if (String(stringUrl).toLowerCase().includes("solebox")) {
+            document.location = `https://www.aiomoji.io/quicktask/add?quicktask=solebox:${stringUrl}`;
+        }
+        else{
+            document.location = `https://www.aiomoji.io/quicktask/add?quicktask=${stringUrl}`;
+        };
+    } catch (err) {
+    };
+})();
