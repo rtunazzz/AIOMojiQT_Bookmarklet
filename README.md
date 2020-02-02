@@ -1,7 +1,7 @@
 # AIOMoji Quicktask Bookmarklet
 A Bookmarklet that creates a QT for Aiomoji.
 
-### I also made an iOS Shortcut, that does the same thing except you can use it on your iOS device! It's available from [this link](https://www.icloud.com/shortcuts/286f099403694ab19c486f2556cf62a9), enjoy!
+### I also made an iOS Shortcut, that does the same thing except you can use it on your iOS device! It's available from [this link](https://www.icloud.com/shortcuts/b88754208503478c8590699106173d8d), enjoy!
 
 
 - Works for **Chrome**, not sure if it'd work for any other browsers but feel free to try.
